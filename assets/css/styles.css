@@ -1,0 +1,135 @@
+body, html {
+  margin: 0;
+  height: 100%;
+}
+
+/*#background and transparentLayer are the ccs for the 
+index.html page to show the background*/
+
+#background {
+  background-image: url(../../assets/img/IMG_8187.png);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#transparentLayer {
+  background-color: rgba(0,0,0,0.53);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/*.firstPageCards is for orgnizeing the cards at the
+first page index.html I used @media to change the css 
+for small devices that have width less than 800px
+*/
+.firstPageCards {
+  position: relative;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,0.125);
+  border-radius: .25rem;
+  margin: 30px 200px 0 200px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,1);
+  text-align: center;
+  padding: 20px;
+}
+
+@media (max-width: 800px) {
+  .firstPageCards {
+    margin: 10px 0 0 0;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,1);
+    padding: 5px;
+    text-align: center;
+  }
+}
+
+/*.page1buttons is for changing the style of the buttons
+at the first page index.html
+*/
+
+.page1buttons {
+  color: #fff;
+  margin-bottom: 20px;
+  font-family: 'Alegreya';
+  border-color: black;
+  background-color: rgba(20,15,15,0.6);
+  width: 275px;
+  align-self: center;
+  font-size: 35px;
+}
+
+.page1buttons:hover {
+  transition-duration: 0.3s;
+  color: black;
+  background-color: white;
+}
+
+/*tableSearch is for changing the style of the table
+at the Statistics.html page*/
+#tableSearch {
+  margin-bottom: 15px;
+}
+
+
+/*These CCSs are the css for the
+section and button at the bottom of Survey.html*/
+.submitSection{
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.submitSurvey{
+  font-size: 50px;
+  text-align: center;
+}
+
+.fa.fa-send.bg-dark.border.rounded-circle.border-primary.shadow-lg {
+  color: rgb(0,209,255);
+}
+
+.fa.fa-send.bg-dark.border.rounded-circle.border-primary.shadow-lg:hover {
+  transition-duration: 1s;
+  color: rgb(47,255,105);
+}
+
+/*addQuestionContainer, and addIcon are the css for the
+container and icon to add new Question at the bottom of CreateSurvey.html*/
+.addQuestionContainer {
+  text-align: center;
+}
+
+.addIcon {
+  font-size: 76px;
+  display: block;
+  color: rgb(40,167,69);
+}
+
+.addIcon:hover {
+  transition-duration: 0.5s;
+  color: rgb(0,84,19);
+}
+
+/*#questionType is the style for select element
+at CreateSurvey.html*/
+#questionType{
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+
+.card.shadow.border-left-warning.py-2 {
+  margin-top: 20px;
+}
+
+
+
+
