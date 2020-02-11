@@ -5,4 +5,9 @@ The main advantages of Bootstrap is it allows the developer to build a responsiv
 
 ## Requirements Analysis and Modeling
 The requirements analysis and modeling was the step before start implementing the website. this step includes the goals, purpose, users descriptions and functionality, use case diagram, use cases descriptions, class diagram, activity diagrams, sequence diagrams, and wireframes. 
-To use the full pdf document go to [Requirements Analysis and Modeling](Requirements%20Analysis%20and%20Modeling.pdf)
+To see the full pdf document go to [Requirements Analysis and Modeling](Requirements%20Analysis%20and%20Modeling.pdf)
+
+## Demo
+To view the website visit [http://mogh99.xyz](http://mogh99.xyz). The website have 2 main functionalities create a survey, and answer/edit a survey. Create a survey requires the user to sign up to the system (**WARNING:** Don't Enter Your Real Information). To answer/edit a survey the user only needs to enter/renter his information to answer/edit his answers. To try answer/edit survey use this survey name **Test Survey**.
+
+**Note:** The website will ask for confirmation number use 111111
